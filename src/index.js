@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 // Ruta GET simple
 app.get('/', (req, res) => {
-  res.send('¡Hola, mundo! 🌊 API de Surf para Desarrolladores');
+  res.send('¡Hola, mundo! 🌊 API de Surf para Desarrolladores!');
 });
 
 // Ruta POST de ejemplo
